@@ -2,15 +2,19 @@
 
 ## Pre-requisites
 
-You will need to have the following tools installed:
+You will need to have the following tools installed [Docker](https://www.docker.com/products/docker-desktop) and a tool to let you interact with an MS SQL database.
 
-- SQL Server Management Studio ([link](https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms)); and
-- Docker ([link](https://www.docker.com/products/docker-desktop)).
+### SQL Server Management Studio
 
-Ensure that docker is running on your machine by using `docker -v`.
+If you're on Windows you can use SQL Server Management Studio (SSMS). This is a free tool provided by Microsoft and you can download it [here](https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms)).
+
+### Visual Studio Code Extensions
+
+There are also extensions for Visual Studio Code that let you connect to SQL database. You will need to install [SQLTools](https://marketplace.visualstudio.com/items?itemName=mtxr.sqltools) and [SQL Server (mssql)](https://marketplace.visualstudio.com/items?itemName=ms-mssql.mssql).
 
 ## First time setup
 
+Ensure that docker is running on your machine by using `docker -v`.
 From command line, in this directory run the startup script appropriate for your shell. (Either `startup.bat` or `startup.sh`).
 
 ## Connect to the database
@@ -24,10 +28,10 @@ CONTAINER ID   IMAGE       COMMAND                  CREATED         STATUS      
 
 If it isn't, run `docker start module-09-container` to start it. If you stop the container for any reason (e.g. restarting your machine) you'll need to run this command.
 
-Open SQL Server Management Studio and connect with the following details:
-Server name: `localhost,1433`
+Connect to the database with the following details:
+Server name: `localhost`
+Port Number: 1433
+_Note, in SSMS you provide server name and post together using this syntax: `localhost,1433`_
 Authentication: `SQL Server Authentication`
 Login: `sa`
 Password: `Password123!`
-
-Under `Databases` there should be a db called `globex`, with tables populated with data. You can see the tables by expanding `globex` and then the `Tables` folder. Right-click and **Select Top 1000 Rows** for a quick preview of the data in each table.

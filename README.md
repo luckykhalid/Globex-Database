@@ -4,18 +4,14 @@
 
 You will need to have the following tools installed [Docker](https://www.docker.com/products/docker-desktop) and a tool to let you interact with an MS SQL database.
 
-### SQL Server Management Studio
-
-If you're on Windows you can use SQL Server Management Studio (SSMS). This is a free tool provided by Microsoft and you can download it [here](https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms)).
-
 ### Visual Studio Code Extensions
 
-There are also extensions for Visual Studio Code that let you connect to SQL database. You will need to install [SQLTools](https://marketplace.visualstudio.com/items?itemName=mtxr.sqltools) and [SQL Server (mssql)](https://marketplace.visualstudio.com/items?itemName=ms-mssql.mssql).
+There are extensions for Visual Studio Code that let you connect to SQL database. You will need to install [SQLTools](https://marketplace.visualstudio.com/items?itemName=mtxr.sqltools) and [SQL Server (mssql)](https://marketplace.visualstudio.com/items?itemName=ms-mssql.mssql).
 
 ## First time setup
 
 Ensure that docker is running on your machine by using `docker -v`.
-From command line, in this directory run the startup script appropriate for your shell. (Either `startup.bat` or `startup.sh`).
+From command line, in this directory run the startup script appropriate for your shell. (Either `startup.bat` or `startup.sh`; Powershell & `startup.bat` recommended on Windows as Git Bash will not run some of the commands).
 
 ## Connect to the database
 

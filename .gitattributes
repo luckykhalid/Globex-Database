@@ -1,1 +1,2 @@
 *.csv eol=lf
+wait-for-it.sh eol=lf

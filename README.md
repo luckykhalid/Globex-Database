@@ -6,7 +6,7 @@ You will need to have the following tools installed [Docker](https://www.docker.
 
 ### Visual Studio Code Extensions
 
-There are extensions for Visual Studio Code that let you connect to SQL database. You will need to install [SQLTools](https://marketplace.visualstudio.com/items?itemName=mtxr.sqltools) and [SQL Server (mssql)](https://marketplace.visualstudio.com/items?itemName=ms-mssql.mssql).
+There are extensions for Visual Studio Code that let you connect to SQL database. You will need to install [SQL Server (mssql)](https://marketplace.visualstudio.com/items?itemName=ms-mssql.mssql).
 
 ## First time setup
 

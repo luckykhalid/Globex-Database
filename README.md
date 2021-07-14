@@ -24,10 +24,10 @@ CONTAINER ID   IMAGE       COMMAND                  CREATED         STATUS      
 
 If it isn't, run `docker start module-09-container` to start it. If you stop the container for any reason (e.g. restarting your machine) you'll need to run this command.
 
-Connect to the database with the following details:
-Server name: `localhost`
-Port Number: 1433
-_Note, in SSMS you provide server name and post together using this syntax: `localhost,1433`_
-Authentication: `SQL Server Authentication`
-Login: `sa`
-Password: `Password123!`
+Connect to the database with the following details:  
+Server name: `localhost`  
+Port Number: 1433  
+_Note, in SSMS or the SQL Server extension for VSCode, provide the server name and port together using this syntax: `localhost,1433`_  
+Authentication: `SQL Server Authentication`  
+Login: `sa`  
+Password: `Password123!`  
